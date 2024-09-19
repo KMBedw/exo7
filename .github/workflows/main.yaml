@@ -10,6 +10,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Set environment variable
+        run: echo "MY_VARIABLE=This is a variable" >> $GITHUB_ENV
+      - name: Show secret
+        run: echo ${{ secrets.MY_SECRET }}
       - name: Create a file
         run: echo "Hello World" > hello.txt
       - name: Show file contents
