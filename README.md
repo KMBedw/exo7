@@ -1,3 +1,3 @@
 # My Project
 
-[![Coverage Status](https://coveralls.io/repos/github/<username>/<repository>/badge.svg?branch=main)](https://coveralls.io/github/<username>/<repository>?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/KMBedw/exo7/badge.svg)](https://coveralls.io/github/KMBedw/exo7)
