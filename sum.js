@@ -6,4 +6,4 @@ function testfct(a, b) {
 	return a - b;
 }
 
-module.exports = {sum,testfct};
+module.exports = { sum,testfct };
